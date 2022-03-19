@@ -1,5 +1,5 @@
 # CSS
-### IMPORTANT: Only on PC. Website not totally responsive.
+### IMPORTANT: Only on PC. Website not responsive.
 
 >CSS is the protagonist of this repository.
 
