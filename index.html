@@ -1,0 +1,196 @@
+<!DOCTYPE html>  <!--Type of document. Specified as HTML-->
+<html lang="en"> <!--Root structure of HTML, lang is language ("en","es",etc.)-->
+<head> <!--Browser reads here first (metadata[coockies,scripts,etc.])-->
+    <meta charset="UTF-8"> <!--Metadata (data of data). "charset"=types of characters used-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Equivalence-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--How it is going to be displayed, "initial-scale"=zoom-->
+    <title>Vaccinate</title> <!--Title of our project-->
+    <link rel="stylesheet" href="./index.css"> <!--To import needed resources-->
+</head>
+<body>
+    <!--This represents a comment on HTML-->
+    <header class="containerHeader">
+        <a class="header1" href="index.html">Vaccination</a>
+        <section>
+            <ul class="header2">
+                <li><a href="#">Database</a></li>
+                <li><a class="tab" href="#">Education</a></li>
+                <li><a class="tab" href="#">News</a></li>
+                <li><a class="tab" href="#">Regulation</a></li>
+                <li><button class="tab button">Hoax Buster</button></li>
+            </ul>
+        </section>
+    </header>
+
+    <main>
+        <section class="containerIntro">
+            <div class="leftDiv">
+                <div class="leftAlign">
+                    <h1>Fight Virus <br> With Vaccines</h1>
+                    <p class="textEdit">Let`s stop this pandemic by killing the virus with a vaccine, don`t let yourself and your famliy get infected</p>
+                </div>
+                
+                <div class="positionElement">
+                    <img class="icon" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/shield.png" alt="Best protection">
+                    <p class="iconText">Best protection</p>
+                    <img class="icon tab" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/star.png" alt="Selected vaccines">
+                    <p class="iconText">Selected vaccines</p>
+                </div>
+    
+            </div>
+    
+            <div class="rightDiv">
+                <img class="rightDiv1" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Nurse.png" alt="nurse">
+            </div>
+    
+            <div class="floatingBox">
+                <table> <!--You can add images, tables, links, etc.-->
+                    <tr>
+                        <td colspan="0">&nbsp;</td>
+                    </tr>
+                    <tr> <!--Table row-->
+                        <td colspan="3">
+                            <img class="icon" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/clock.png" alt="Best protection">
+                            <p class="iconText">Schedule your vaccinations</p>
+                        </td>
+                        <td rowspan="0">
+                            <button class="button transformButton">Submit</button>
+                        </td>
+                    </tr>
+                    <tr> <!--Table row-->
+                        <th>
+                            <img class="icon" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/location.png" alt="Location">
+                            <p class="iconText">Location</p>
+                        </th>
+                        <th class="transformDate">
+                            <img class="icon" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/calendar.png" alt="Data">
+                            <p class="iconText">Date</p>
+                        </th>
+                        <th>
+                            <img class="icon" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/vaccine.png" alt="Vaccine type">
+                            <p class="iconText">Vaccine Type</p>
+                        </th>
+                    </tr>
+                    <tr> <!--Table row-->
+                        <td class="newTab custom-select">
+                            <select name="location1" id="location1" class="classic">
+                                <option value="London">London</option>
+                                <option value="Rome">Rome</option>
+                                <option value="Amsterdam">Amsterdam</option>
+                                <option value="Mexico">Mexico</option>
+                                <option value="Norway">Norway</option>
+                            </select>
+                        </td>
+                        <td> 
+                            <input class="classic1" type="datetime-local" name="date1" id="date1">
+                        </td>
+                        <td class="transformVaccineSel custom-select">
+                            <select name="vaccineType" id="vaccineType" class="classic">
+                                <option value="Moderna">Moderna</option>
+                                <option value="Astrazeneca">Astrazeneca</option>
+                                <option value="Sinovac">Sinovac</option>
+                                <option value="Pfizer">Pfizer</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <section class="containerVaccineImg">
+            <img class="iconVaccine transformIconV" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Astrazeneca.png" alt="Astrazeneca">
+            <img class="iconVaccine" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Sinovac.png" alt="Sinovac">
+            <img class="iconVaccine transformIconV2" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Pfizer.png" alt="Pfizer">
+            <img class="iconVaccine" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Moderna.png" alt="Moderna">
+        </section>
+
+        <section class="containerWhy">
+            <h2 class="colorWhy titleH2Why">Why shuold I vaccine?</h2>
+            <p class="colorWhy textH2Why">In order to avoid any doubts about getting the COVID-19 <br> vaccine, identify the following 4 benefits of COVID-19 <br> vaccination:</p>
+        </section>
+
+        <section class="containerBenefits">
+            <div class="floatingBenefits">
+                <img class="iconBenefits" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Equalizer.png" alt="Minimize virus spread">
+                <p class="iconBenefitsTitle">Minimize the virus spread</p>
+                <p class="iconBenefitsText">Vaccine has been proven effective to prevent someone from getting infected with Coronavirus</p>
+            </div>
+            <div class="floatingBenefits tab iconFix">
+                <img class="iconBenefits" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/BlueShield.png" alt="Antibodies">
+                <p class="iconBenefitsTitle">Forming antibodies</p>
+                <p class="iconBenefitsText">COVID-19 vaccine proven to help shape antibody response for immune system</p>
+            </div>
+            <div class="floatingBenefits tab">
+                <img class="iconBenefits" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Group.png" alt="Protect people">
+                <p class="iconBenefitsTitle">Protecting people nearby</p>
+                <p class="iconBenefitsText">The benefits of COVID-19 vaccination are the vaccine that we get can also help protect people around us</p>
+            </div>
+            <div class="floatingBenefits tab iconFix2">
+                <img class="iconBenefits" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Statistics.png" alt="Immunity">
+                <p class="iconBenefitsTitle">Creating group immunity</p>
+                <p class="iconBenefitsText">COVID-19 vaccination is also beneficial for creating group immunity or herd immunity</p>
+            </div>
+        </section>
+
+        <section class="containerPrep">
+            <div class="row">
+                <div class="column">
+                    <div class="backgroundBlue"></div>
+                    <img class="imgPrep" src="https://raw.githubusercontent.com/StevenPazB/CSS/main/img/Nurse2.png" alt="BeautifulNurse">
+                </div>
+
+                <div class="column2">
+                    <h2 class="colorWhy titleH2Why">Preparations Before Vaccine</h2>
+                    <p class="textH2Why colorWhy">The success of a vaccine is strongly influenced by the strenght of the body`s immune system. Therefore, there are several things that can be tried to make the COVID-19 vaccine work:</p>
+                    <div class="columnPrep">
+                        <ul class="infoPrep">
+                            <li>
+                                Avoid alcoholic beverages
+                                <button>▼</button>
+                                <div>
+                                    Here it goes
+                                </div>
+                            </li>
+                            
+                            <li>
+                                Eat healthy food
+                                <button>▼</button>
+                                <div>
+                                    Eating healthy is vital for a healthy life in all senses.
+                                </div>
+                            </li>
+
+                            <li>
+                                Exercise or physical activity
+                                <button>▼</button>
+                                <div>
+                                    Physical activity activates your body and maintains a balance within you.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="columnPrep2 titlePrep">
+                        <ul class="infoPrep">
+                            <li>
+                                Avoid stress
+                                <button>▼</button>
+                                <div>
+                                    Stress can only cause health and physical issues.
+                                </div>
+                            </li>
+                            <li>
+                                Get enough sleep
+                                <button>▼</button>
+                                <div>
+                                    Sleeping regenerates your energy but also everything inside you.
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

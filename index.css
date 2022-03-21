@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,300&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Poppins';
+}
+/*Here starts classes stylish*/
+.containerHeader{
+    height: 7vw; 
+    position: relative;
+    inset: 0%;
+    width: 100%;
+    background: linear-gradient(rgba(214, 236, 241,0.5), rgba(229, 238, 240, 1));
+}
+.header1{
+    text-decoration: none;
+    font-family:'Lato:', sans-serif;
+    display: flex;
+    color: blue;
+    font-size: 2.08vw;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 12%;
+}
+.header2{
+    list-style: none;
+    font-size: x-large;
+    font-weight: 900;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 40%;
+}
+.align{
+    position: absolute;
+    top: 10%;
+}
+.tab{
+    display: inline-block;
+    margin-left: 4.17vw; 
+}
+.button{
+    background-color: blue;
+    color: white;
+    border-radius: 0.26vw; 
+    border: none;
+    font-size: x-large;
+    width: 10.42vw; 
+    height: 3.9vw; 
+}
+.button:hover{
+    background-color: rgb(4, 4, 156);
+    color: white;
+    border-radius: 0.26px; 
+    border: none;
+    font-size: x-large;
+    width: 10.42vw; 
+    height: 3.9vw; 
+    cursor: pointer;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.containerIntro{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: darkblue;
+}
+.leftDiv, .rightDiv{
+    position: absolute;
+    width: 50%;
+}
+.leftDiv{
+    left: 0%;
+}
+.leftAlign{
+    display: inline-block;
+    position: relative;
+    left: 30%;
+    right: 87.5%;
+    top: 3.5vw;
+}
+.textEdit{
+    position: absolute;
+    top: 112.5%;
+    font-size: 1.2vw;
+}
+.positionElement{
+    position: absolute;
+    left: 30%;
+    top: 21vw;
+}
+.positionElement2{
+    position: absolute;
+    left: 100%;
+    top: 23vw;
+}
+.icon{
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 1.3vw;
+    width: 1.3vw; 
+}
+.iconText{
+    display: inline-block;
+    font-size: 0.8vw;
+}
+.rightDiv{
+    right: 0%;
+    background-image: linear-gradient(#458eee, #3f5ee7);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+.rightDiv1{
+    width: 100%;
+    height: 100%;
+    vertical-align: middle; /*To eliminate margin to bottom on this section*/
+}
+.floatingBox{
+    position: relative;
+    width: 50%;
+    height: 7.4125vw; 
+    top: 24vw;
+    left: 25%;
+    text-align: left;
+    background-image: linear-gradient(rgba(214, 236, 241,0.5), rgba(229, 238, 240, 1));
+    border-radius: 30px;
+}
+.newTab{
+    display: inline-block;
+    margin-left: 1.5vw; 
+}
+.transformVaccineSel{
+    transform: translateX(13%);
+}
+.transformButton{
+    transform: translateY(10%);
+}
+.transformDate{
+    transform: translateX(-10%);
+}
+.iconVaccine{
+    opacity: 0.15;
+    max-width: 15%;
+    padding: 5%;
+    float: left;
+}
+.containerVaccineImg{
+    position: absolute;
+    top: 85%;
+    width: 100%;
+    height: auto;
+}
+.transformIconV{
+    transform: translateY(-15%);
+}
+.transformIconV2{
+    transform: translateY(-15%);
+}
+.containerWhy{
+    position: absolute;
+    top: 125%;
+    left: 15%;
+}
+.colorWhy{
+    color: darkblue;
+}
+.titleH2Why{
+    font-size: 2.7vw;
+}
+.textH2Why{
+    font-size: 1.2vw;
+}
+.containerBenefits{
+    position: absolute;
+    width: 100%;
+    top: 160%;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-items: center;
+}
+.floatingBenefits{
+    display: inline-block;
+    width: 15%;
+    padding: 0%;
+    height: 20vw;
+    border-radius: 30px;
+    background-image: linear-gradient(rgba(214, 236, 241,0.5), rgba(229, 238, 240, 1));
+}
+.iconBenefits{
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 3vw;
+    width: 3vw; 
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.iconBenefitsTitle{
+    display: inline-block;
+    color: darkblue;
+    font-size: 1.2vw;
+    transform: translateY(20%);
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.iconBenefitsText{
+    transform: translateY(30%);
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 0.7vw;
+    color: darkblue;
+}
+.iconFix{
+    transform: translateY(-14%);
+}
+.iconFix2{
+    transform: translateY(-5%);
+}
+.floatingBenefits:hover{
+    background-color: linear-gradient(rgba(142, 238, 241, 0.63), rgba(229, 238, 240, 1));
+    color: black;
+    cursor: default;
+    width: 17.5;
+    height: 21vw;
+    transition: 1s;
+    box-shadow: 0 12px 16px 0 rgb(49, 62, 236), 0 17px 50px 0 rgb(240, 243, 243);
+}
+/*Creating two inequal columns*/
+.containerPrep{
+    position: absolute;
+    width: 100%;
+    top: 220%;
+    align-items: center;
+}
+.row {
+    display: flex;
+  }
+/* Create two inequal columns that sits next to each other */
+.column {
+    flex: 40%;
+    left: 0%;
+    height: 1300px;
+    padding: 0%;
+    justify-items: center;
+}
+.backgroundBlue{
+    position: absolute;
+    width: 40%;
+    height: 70%;
+    margin-left: 0%;
+    margin-top: -30%;
+    bottom: 0%;
+    z-index: -1;
+    background-image: linear-gradient(#458eee, #3f5ee7);
+}
+.imgPrep{
+    height: 100%;
+    width: 100%;
+    margin-left: 15%;
+    object-fit: cover;
+}
+.column2{
+    flex: 60%;
+    right: 0%;
+    padding: 0%;
+    height: 1300px;
+    margin-left: 20%;
+    margin-right: 10%;
+}
+.columnPrep{
+    position: absolute;
+    width: 25%;
+    height: 1300px;
+    right: 5%;
+    padding: 0%;
+    margin-left: 20%;
+}
+.columnPrep2{
+    position: absolute;
+    width: 25%;
+    height: 1300px;
+    left: 25%;
+    padding: 0%;
+    margin-left: 20%;
+}
+.infoPrep{
+    list-style: none;
+}
+.infoPrep li div{
+    display: none; 
+}
+.infoPrep li{
+    color: darkblue;
+    cursor: default;
+    width: 17.5vw;
+    height: 2.5vw;
+    transition: 1s;
+    margin-bottom: 5vw;
+    margin-top: 2.5vw;
+    margin-left: 10%;
+    text-align: center;
+    font-size: 1vw;
+    align-items: center;
+    box-shadow: 0 12px 16px 0 rgb(181, 185, 241), 0 17px 50px 0 rgb(240, 243, 243);
+}
+.infoPrep button{
+    position: absolute;
+    right: 0%;
+    background-color: #e1fa06;
+    border-radius: 5px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2.5px;
+}
+.infoPrep li:hover div{
+    display: inline-block;
+    padding: 1vw 3vw;
+    margin-bottom: 10%;
+    color: darkblue;
+}
+.infoPrep li:hover li div{
+    padding: 1vw 5vw;
+}
+.infoPrep li:hover button{
+    display: inline-block;
+    background-image
+    : linear-gradient(#458eee, #3f5ee7);;
+    border-radius: 5px;
+    border: 2px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 2.5px;
+    transform: rotate(180deg);
+}
+
+/*Here finishes classes stylish*/
+
+
+
+
+/*Here starts tags edition*/
+html,body{ /*To ensure that not desired blank spaces show up.*/
+    width: 100%; /*To make sure obout measures*/
+    height: 100%; /*To make sure obout measures*/
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; /*Deletes overflow content on x axis*/
+}
+a{
+    text-decoration: none;
+    color: grey;   
+}
+h1{
+    font-family: 'league Spartan', sans-serif;
+    font-size: 3.1vw; /*100px*/
+}
+td{
+    width: 400px;
+}
+td[rowspan="0"]{
+    vertical-align: bottom;
+}
+h2{
+    font-family: 'league Spartan', sans-serif;
+    font-size: 1.7vw;
+}
+/*Here finishes tag edition*/
+
+
+
+/*Here starts selector styling by SR STAFF on https://www.sliderrevolution.com/resources/css-select-styles/ */
+select {
+    /* styling */
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+select.classic {
+    background-image:
+      linear-gradient(45deg, transparent 50%, blue 50%),
+      linear-gradient(135deg, blue 50%, transparent 50%),
+      linear-gradient(to right, skyblue, skyblue);
+    background-position:
+      calc(100% - 20px) calc(1em + 2px),
+      calc(100% - 15px) calc(1em + 2px),
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+  }
+select.classic:focus {
+    background-image:
+      linear-gradient(45deg, white 50%, transparent 50%),
+      linear-gradient(135deg, transparent 50%, white 50%),
+      linear-gradient(to right, gray, gray);
+    background-position:
+      calc(100% - 15px) 1em,
+      calc(100% - 20px) 1em,
+      100% 0;
+    background-size:
+      5px 5px,
+      5px 5px,
+      2.5em 2.5em;
+    background-repeat: no-repeat;
+    border-color: grey;
+    outline: 0;
+}
+/*Here finishes select stylish*/
+
+input[type='datetime-local']{
+    background-color: white;
+    border: thin solid blue;
+    border-radius: 4px;
+    display: inline-block;
+    font: inherit;
+    line-height: 1.5em;
+    padding: 0.5em 3.5em 0.5em 1em;
+  
+    /* reset */
+  
+    margin: 0;      
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+}
+
