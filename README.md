@@ -1,5 +1,5 @@
 # CSS
-## Will fix code, apparently I code with zoom on where I was applying changes and horrendous things happend
+## Will fix code, apparently I code with zoom (50%) on where I was watching changes applied and horrendous things happened because of that.
 ### IMPORTANT: Only on PC. Website not responsive.
 
 >CSS is the protagonist on this repository.
