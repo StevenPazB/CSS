@@ -1,4 +1,5 @@
 # CSS
+## Will fix code, apparently I code with zoom on where I was applying changes and horrendous things happend
 ### IMPORTANT: Only on PC. Website not responsive.
 
 >CSS is the protagonist of this repository.
@@ -7,4 +8,4 @@
 
 >Structure given with HTML and styled with CSS files.
 
->Deployed with Githu Pages.
+>Deployed with Github Pages.
